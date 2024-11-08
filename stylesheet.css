@@ -1,22 +1,61 @@
-.flex-container{
-    display:flex;
-    flex-flow: row wrap;
-    background-color: blanchedalmond;
-    align-items: center;
-    justify-content: space-between;
-}
-
-.flex-container > div{
-    background-color: aquamarine;
-    width: 50px;
-    margin: 10px;
-    border-style:ridge;
+#index-body{
+    background-color:black;
     text-align: center;
     
 }
 
-body{
-    background-color:black;
-    align-items:center;
+#headings{
+
+    color: crimson;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-align: center;
 }
 
+#disclaimer{
+
+    color:green;
+    font-family: 'Courier New', Courier, monospace;
+    border-style: solid;
+    border-radius: 50px;
+    border-color: goldenrod;
+    text-align: center;
+    padding: 20px;
+}
+
+#Proceed{
+    text-align: center;
+    font-size:larger;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color:grey;
+    color:black;
+    border-radius: 70px;
+    padding: 10px; 
+}
+
+outsetup{
+    background-color:darkslategray;
+    text-align: center;
+}
+
+.register{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    padding: 50px;
+    border-style:double ridge outset solid;
+    border-color:darkslategray;
+    border-radius: 50px;
+    color: darkslategray;
+}
+
+#google{
+    
+}
+
+#facebook{
+    
+}
+
+#apple{
+    
+}
